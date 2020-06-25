@@ -1,0 +1,5 @@
+#Ignorar archivos no necesarios
+#Dependencias de Node
+node_modules
+#Logs de NPM
+npm-debug.log

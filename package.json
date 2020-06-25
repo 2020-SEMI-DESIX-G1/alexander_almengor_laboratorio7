@@ -1,24 +1,24 @@
 {
-    "name": "laboratorio_5_guia",
+    "name": "laboratorio_7",
     "version": "1.0.0",
     "description": "",
     "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "mongo:start": "docker run --rm -p=27017:27017 --env-file=./.env --name=dessoftix--lab6--mongo -d centos/mongodb-32-centos7",
-        "mongo:stop": "docker stop dessoftix--lab6--mongo",
+        "mongo:start": "docker run --rm -p=27017:27017 --env-file=./.env --name=desix--lab7--mongo -d centos/mongodb-32-centos7",
+        "mongo:stop": "docker stop desix--lab7--mongo",
         "start": "nodemon app.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/2020-SEMI-TOPESP-II/laboratorio_5_guia.git"
+        "url": "git+https://github.com/2020-SEMI-DESIX-G1/alexander_almengor_laboratorio7"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/2020-SEMI-TOPESP-II/laboratorio_5_guia/issues"
+        "url": "https://github.com/2020-SEMI-DESIX-G1/alexander_almengor_laboratorio7/issues"
     },
-    "homepage": "https://github.com/2020-SEMI-TOPESP-II/laboratorio_5_guia#readme",
+    "homepage": "https://github.com/2020-SEMI-DESIX-G1/alexander_almengor_laboratorio7#readme",
     "dependencies": {
         "body-parser": "^1.19.0",
         "dotenv": "^8.2.0",
